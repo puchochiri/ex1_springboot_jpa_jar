@@ -1,0 +1,10 @@
+mac
+ 01 f1234키 방법 : fn
+ 02 mac mariadb setting : https://deok-2.tistory.com/4
+
+root//1430
+ 03 mysql -uroot -p
+ 04 1430
+ 05 use mysql
+ 06 CREATE USER 'bootuser'@'%' IDENTIFIED BY 'bootuser';
+ 07 GRANT ALL PRIVILEGES ON bootex.* TO 'bootuser'@'%';
